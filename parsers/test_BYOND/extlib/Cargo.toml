@@ -1,0 +1,11 @@
+[package]
+name = "extlib"
+version = "0.1.0"
+authors = ["PJB3005 <pieterjan.briers@gmail.com>"]
+
+[lib]
+name = "extlib"
+crate-type = ["dylib"]
+
+[dependencies]
+byond = "*"

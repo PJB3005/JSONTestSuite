@@ -410,6 +410,11 @@ programs = {
        {
            "url":"https://github.com/owensd/json-swift",
            "commands":[os.path.join(PARSERS_DIR, "test_json_swift_20170522/bin/json_swift")]
+       },
+    "BYOND":
+       {
+           "url": "http://byond.com",
+           "commands":["/usr/local/bin/DreamDaemon", os.path.join(PARSERS_DIR, "test_BYOND/test.dmb"), "-trusted", "-params"]
        }
 }
 
