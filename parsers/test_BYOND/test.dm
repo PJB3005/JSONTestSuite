@@ -1,4 +1,4 @@
-#define exit(code) call("./extlib.so", "exit_byond")("[code]")
+#define exit(code) call("./libextlib.so", "exit_byond")("[code]")
 //#define exit(code) world.log << "EXIT: [code]"
 
 /proc/test()
